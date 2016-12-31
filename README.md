@@ -12,3 +12,5 @@ When the installation is finished, simply run:
 http-server
 ```
 Open the link displayed in the terminal to view the demo. Have fun in the virtual world!
+
+Royalty-free 360° panorama photos courtesy of http://www.wpanorama.com/
