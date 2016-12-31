@@ -1,0 +1,24 @@
+{
+  "name": "vr-gallery",
+  "version": "1.0.0",
+  "description": "A virtual reality web gallery built with Mozilla's A-Frame",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JelaniThompson/vr-gallery.git"
+  },
+  "author": "Jelani Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JelaniThompson/vr-gallery/issues"
+  },
+  "homepage": "https://github.com/JelaniThompson/vr-gallery#readme",
+  "dependencies": {
+    "aframe": "^0.4.0",
+    "connect": "^3.5.0",
+    "serve-static": "^1.11.1"
+  }
+}
