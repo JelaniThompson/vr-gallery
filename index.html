@@ -7,7 +7,13 @@
 </head>
 <body>
     <a-scene>
-    <a-entity camera="userHeight: 1" look-controls></a-entity>
+    <a-entity camera="userHeight: 1.6" look-controls>
+        <a-entity cursor="fuse: true; fuseTimeout: 500"
+            position="0 0 -1"
+            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            material="color: black; shader: flat">
+        </a-entity>
+    </a-entity>
     <!-- Assets -->
     <a-assets>
         <!-- Menu items -->
