@@ -7,6 +7,8 @@
 </head>
 <body>
     <a-scene>
+
+    <!-- Camera and cursor -->
     <a-entity camera="userHeight: 1.6" look-controls>
         <a-entity cursor="fuse: true; fuseTimeout: 500"
             position="0 0 -1"
@@ -14,6 +16,9 @@
             material="color: black; shader: flat">
         </a-entity>
     </a-entity>
+
+    <a-entity id="box" cursor-listener geometry="primitive: box" material="color: blue"></a-entity>
+    
     <!-- Assets -->
     <a-assets>
         <!-- Menu items -->
@@ -27,5 +32,6 @@
         <a-image src="#rome-menu" position="0 2 -5" scale="2 2 2"></a-image>
         <a-sky src="#rome-360"></a-sky>
     </a-scene>
+    <script src="scripts/components/cursor.js"></script>
 </body>
 </html>
