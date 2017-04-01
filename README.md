@@ -7,7 +7,7 @@ To install dependencies, run:
 ```
 npm install
 ```
-When the installation is finished, simply run:
+When the installation is finished, make sure http-server is installed globally and simply run:
 ```
 http-server
 ```
